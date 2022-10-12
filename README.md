@@ -1,8 +1,8 @@
 # list-proxies-products
-Use Apigee API to list all proxies for an environment and the products for each
+Use Apigee Managent APIs to list all products by proxies and all proxies by products
 
 # Instructions
-In this repo is a simple Node.js script that uses [Apigee X Management APIs](https://cloud.google.com/apigee/docs/reference) to list all the proxies within the org and list the associated products for each.To interact with the APIs I am using a popular NPM library, [apigee-edge-js](https://www.npmjs.com/package/apigee-edge-js).
+In this repo is a simple Node.js script that uses [Apigee X Management APIs](https://cloud.google.com/apigee/docs/reference) to list all the proxies within the org and the associated products for each as well as the products within the org and the associated proxies for each. For products by proxies I am using a popular NPM library, [apigee-edge-js](https://www.npmjs.com/package/apigee-edge-js). For proxies by products I am using the raw HTTPS Apigee X Management APIs.
 
 To run the script, follow these steps:
 1. [Download and install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to your computer
